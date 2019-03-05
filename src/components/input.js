@@ -10,7 +10,7 @@ class Input extends React.Component {
             <h5>Select the amount of repetitions done and enter the weight used to calculate your 1RM</h5>
             <div class="fields">
             <div class="field">
-            <select class="ui fluid dropdown" placeholder="Select amunt of reps" value={this.state.reps} onChange={e =>
+            <select class="ui fluid dropdown" value={this.state.reps} onChange={e =>
                  this.setState({ reps: e.target.value })}>
               <option value=""></option>
               <option value='1'>1</option>

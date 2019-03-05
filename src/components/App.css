@@ -1,0 +1,16 @@
+.Container {
+font-family: 'Poppins', sans-serif;
+text-align: center;
+background-color: #white;
+min-height: 100vh;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins', sans-serif;
+  }
+
+  
