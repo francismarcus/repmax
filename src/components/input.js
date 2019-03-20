@@ -3,6 +3,10 @@ import React from 'react';
 class Input extends React.Component {
     state = { weight: '', reps: '' }
 
+    handleSubmit = event => {
+      event.preventDefault();
+    }
+
         render() {
         return (
           <div class="ui card">
@@ -31,7 +35,7 @@ class Input extends React.Component {
             </select>
             </div>
               <div class="field">
-              <form class="ui form">
+              <form class="ui form" onSubmit={this.handleSubmit}>
                 <input
                       type="number"
                       placeholder="e.g. 120"
